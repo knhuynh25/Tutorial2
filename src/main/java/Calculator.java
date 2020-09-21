@@ -23,7 +23,7 @@ public class Calculator{
     }
 
     public double power(double x, int power){
-        return 0.0;
+        return Math.pow(x,power);
     }
 
     public static void main(String args[]){
